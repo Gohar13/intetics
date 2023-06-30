@@ -1,0 +1,32 @@
+{
+    "name": "intetics/mvc-task",
+    "description": "Simple MVC with form.",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Gohar Ghazaryan",
+            "email": "gohar.ghazaryan13@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Intetics\\MvcTask\\": "app/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "scripts": {
+        "unit-test": "./vendor/bin/phpunit"
+    }
+}
